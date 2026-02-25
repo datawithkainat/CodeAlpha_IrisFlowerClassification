@@ -1,16 +1,35 @@
 # CodeAlpha Iris Flower Classification
 
 ## Objective
-Build a machine learning model to classify Iris flower species using sepal and petal measurements.
+Develop a machine learning model to classify Iris flower species using sepal and petal measurements.
 
 ## Dataset
-Iris.csv (150 samples, 4 features, 3 classes)
+Iris.csv  
+- 150 samples  
+- 4 numerical features  
+- 3 classes (Iris-setosa, Iris-versicolor, Iris-virginica)
 
-## Model
-Random Forest Classifier
+## Steps Performed
+1. Data loading and preprocessing  
+2. Exploratory Data Analysis (EDA)  
+3. Correlation analysis  
+4. Train-test split (80/20)  
+5. Model training using Random Forest  
+6. Model evaluation using accuracy, classification report, and confusion matrix  
+
+## Model Used
+Random Forest Classifier (Scikit-learn)
 
 ## Accuracy
-0.90 on test data
+0.90 on test dataset
 
-## Tools Used
-Python, Pandas, Seaborn, Scikit-learn
+## Technologies Used
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+
+## How To Run
+1. Install requirements:
